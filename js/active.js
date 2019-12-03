@@ -1,5 +1,5 @@
  $('#counter-block').ready(function () {
-     $('.client').owlCarousel({
+     $('.client').theme1Carousel({
          loop: true,
          margin: 10,
          nav: true,
@@ -11,7 +11,7 @@
         "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
      });
 
-     $('.our_cuauses_single').owlCarousel({
+     $('.our_cuauses_single').theme1Carousel({
          loop: true,
          margin: 50,
          nav: true,
@@ -40,7 +40,7 @@
          },
      });
 
-     $('.donors_featured').owlCarousel({
+     $('.donors_featured').theme1Carousel({
          loop: true,
          margin: 10,
          nav: true,
@@ -52,7 +52,7 @@
         "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
      });
 
-     $('.volunteer_single').owlCarousel({
+     $('.volunteer_single').theme1Carousel({
          loop: true,
          margin: 10,
          nav: true,
@@ -86,7 +86,7 @@
          },
      });
 
-     $('.carosal_bottom_single').owlCarousel({
+     $('.carosal_bottom_single').theme1Carousel({
          loop: true,
          margin: 10,
          nav: true,
@@ -98,7 +98,7 @@
         "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
      });
 
-     $('.footer_carosal_icon').owlCarousel({
+     $('.footer_carosal_icon').theme1Carousel({
          loop: true,
          margin: 10,
          nav: true,

@@ -1,18 +1,3 @@
-/* ===========================================================
- * animationCounter.js v.1.0.0
- * ===========================================================
- * Copyright 2017 Micheline Pavadé
- * http://www.pixel-renaissance.com
- * https://github.com/mpavade/
- *
- * animationCounter.js is a plugin that animate a counter from one value to another value
- * or from a number to an infinite value
- *
- * License MIT
- *
- * ========================================================== */
-
-
 (function($){
 
 	$.fn.animationCounter = function(options) {

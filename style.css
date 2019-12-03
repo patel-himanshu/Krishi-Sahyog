@@ -128,19 +128,19 @@
     color: #01d262;
 }
 
-.carosal-area .owl-prev {
+.carosal-area .theme1-prev {
     left: 0;
     position: absolute;
     top: 48%;
 }
 
-.carosal-area .owl-next {
+.carosal-area .theme1-next {
     right: 0;
     position: absolute;
     top: 48%;
 }
 
-.carosal-area .owl-theme .owl-nav [class*="owl-"] {
+.carosal-area .theme1-theme .theme1-nav [class*="theme1-"] {
     background: #1cb060 none repeat scroll 0 0;
     border-radius: 50%;
     font-size: 25px;
@@ -149,18 +149,18 @@
     width: 50px;
 }
 
-.carosal-area .owl-dots {
+.carosal-area .theme1-dots {
     margin-bottom: 40px;
     margin-top: 105px;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.theme1-theme .theme1-dots .theme1-dot span {
     background: transparent none repeat scroll 0 0;
     border: 1px solid #fff
 }
 
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
+.theme1-theme .theme1-dots .theme1-dot.active span,
+.theme1-theme .theme1-dots .theme1-dot:hover span {
     background: #fff none repeat scroll 0 0;
 }
 
@@ -567,11 +567,11 @@
     background: #01d262;
 }
 
-.our_cuauses .owl-theme .owl-nav {
+.our_cuauses .theme1-theme .theme1-nav {
     margin: 50px 0;
 }
 
-.our_cuauses .owl-theme .owl-nav [class*="owl-"] {
+.our_cuauses .theme1-theme .theme1-nav [class*="theme1-"] {
     background: transparent;
     border: medium none;
     border-radius: 3px;
@@ -584,7 +584,7 @@
     padding: 0;
 }
 
-.our_cuauses .owl-theme .owl-nav i {
+.our_cuauses .theme1-theme .theme1-nav i {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #01d262;
     border-radius: 5px;
@@ -596,7 +596,7 @@
     width: 50px;
 }
 
-.our_cuauses .owl-theme .owl-nav i:hover {
+.our_cuauses .theme1-theme .theme1-nav i:hover {
     background: #01d262;
     color: #fff;
 }
@@ -737,18 +737,18 @@
     color: #01d262;
 }
 
-.donors .donors_image .owl-theme .owl-nav {
+.donors .donors_image .theme1-theme .theme1-nav {
     margin-top: 10px;
     display: none;
 }
 
-.donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
-.donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
+.donors .donors_image .theme1-theme .theme1-dots .theme1-dot.active span,
+.donors .donors_image .theme1-theme .theme1-dots .theme1-dot:hover span {
     background: #01d262 none repeat scroll 0 0;
     border: 1px solid #01d262;
 }
 
-.donors .donors_image .owl-theme .owl-dots .owl-dot span {
+.donors .donors_image .theme1-theme .theme1-dots .theme1-dot span {
     border: 1px solid #7b7e80;
     height: 12px;
     width: 12px;
@@ -799,11 +799,11 @@
     margin: 10px 0 0;
 }
 
-.volunteer_area .owl-theme .owl-nav {
+.volunteer_area .theme1-theme .theme1-nav {
     margin: 65px 0 110px;
 }
 
-.volunteer_area .owl-theme .owl-nav [class*="owl-"] {
+.volunteer_area .theme1-theme .theme1-nav [class*="theme1-"] {
     background: transparent;
     border: medium none;
     border-radius: 3px;
@@ -820,7 +820,7 @@
     margin-top: 70px;
 }
 
-.volunteer_area .owl-theme .owl-nav i {
+.volunteer_area .theme1-theme .theme1-nav i {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #01d262;
     border-radius: 5px;
@@ -832,7 +832,7 @@
     width: 50px;
 }
 
-.volunteer_area .owl-theme .owl-nav i:hover {
+.volunteer_area .theme1-theme .theme1-nav i:hover {
     background: #01d262;
     color: #fff;
 }
@@ -891,8 +891,8 @@
     color: #fff;
 }
 
-.carosal_bottom .owl-theme .owl-nav,
-.carosal_bottom .owl-theme .owl-dots {
+.carosal_bottom .theme1-theme .theme1-nav,
+.carosal_bottom .theme1-theme .theme1-dots {
     display: none;
 }
 
@@ -1125,6 +1125,6 @@
 .clear {
     clear: both;
 }
-.footer_carosal_icon .owl-nav{
+.footer_carosal_icon .theme1-nav{
     display: none;
 }

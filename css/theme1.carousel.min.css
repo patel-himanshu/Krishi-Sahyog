@@ -1,23 +1,23 @@
 
 
-.owl-carousel,
-.owl-carousel .owl-item {
+.theme1-carousel,
+.theme1-carousel .theme1-item {
     -webkit-tap-highlight-color: transparent;
     position: relative
 }
 
-.owl-carousel {
+.theme1-carousel {
     display: none;
     width: 100%;
     z-index: 1
 }
 
-.owl-carousel .owl-stage {
+.theme1-carousel .theme1-stage {
     position: relative;
     -ms-touch-action: pan-Y
 }
 
-.owl-carousel .owl-stage:after {
+.theme1-carousel .theme1-stage:after {
     content: ".";
     display: block;
     clear: both;
@@ -26,38 +26,38 @@
     height: 0
 }
 
-.owl-carousel .owl-stage-outer {
+.theme1-carousel .theme1-stage-outer {
     position: relative;
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0)
 }
 
-.owl-carousel .owl-item {
+.theme1-carousel .theme1-item {
     min-height: 1px;
     float: left;
     -webkit-backface-visibility: hidden;
     -webkit-touch-callout: none
 }
 
-.owl-carousel .owl-item img {
+.theme1-carousel .theme1-item img {
     display: block;
     width: 100%;
     -webkit-transform-style: preserve-3d
 }
 
-.owl-carousel .owl-dots.disabled,
-.owl-carousel .owl-nav.disabled {
+.theme1-carousel .theme1-dots.disabled,
+.theme1-carousel .theme1-nav.disabled {
     display: none
 }
 
-.no-js .owl-carousel,
-.owl-carousel.owl-loaded {
+.no-js .theme1-carousel,
+.theme1-carousel.theme1-loaded {
     display: block
 }
 
-.owl-carousel .owl-dot,
-.owl-carousel .owl-nav .owl-next,
-.owl-carousel .owl-nav .owl-prev {
+.theme1-carousel .theme1-dot,
+.theme1-carousel .theme1-nav .theme1-next,
+.theme1-carousel .theme1-nav .theme1-prev {
     cursor: pointer;
     cursor: hand;
     -webkit-user-select: none;
@@ -67,55 +67,55 @@
     user-select: none
 }
 
-.owl-carousel.owl-loading {
+.theme1-carousel.theme1-loading {
     opacity: 0;
     display: block
 }
 
-.owl-carousel.owl-hidden {
+.theme1-carousel.theme1-hidden {
     opacity: 0
 }
 
-.owl-carousel.owl-refresh .owl-item {
+.theme1-carousel.theme1-refresh .theme1-item {
     visibility: hidden
 }
 
-.owl-carousel.owl-drag .owl-item {
+.theme1-carousel.theme1-drag .theme1-item {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
 
-.owl-carousel.owl-grab {
+.theme1-carousel.theme1-grab {
     cursor: move;
     cursor: grab
 }
 
-.owl-carousel.owl-rtl {
+.theme1-carousel.theme1-rtl {
     direction: rtl
 }
 
-.owl-carousel.owl-rtl .owl-item {
+.theme1-carousel.theme1-rtl .theme1-item {
     float: right
 }
 
-.owl-carousel .animated {
+.theme1-carousel .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both
 }
 
-.owl-carousel .owl-animated-in {
+.theme1-carousel .theme1-animated-in {
     z-index: 0
 }
 
-.owl-carousel .owl-animated-out {
+.theme1-carousel .theme1-animated-out {
     z-index: 1
 }
 
-.owl-carousel .fadeOut {
+.theme1-carousel .fadeOut {
     -webkit-animation-name: fadeOut;
     animation-name: fadeOut
 }
@@ -138,27 +138,27 @@
     }
 }
 
-.owl-height {
+.theme1-height {
     transition: height .5s ease-in-out
 }
 
-.owl-carousel .owl-item .owl-lazy {
+.theme1-carousel .theme1-item .theme1-lazy {
     opacity: 0;
     transition: opacity .4s ease
 }
 
-.owl-carousel .owl-item img.owl-lazy {
+.theme1-carousel .theme1-item img.theme1-lazy {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d
 }
 
-.owl-carousel .owl-video-wrapper {
+.theme1-carousel .theme1-video-wrapper {
     position: relative;
     height: 100%;
     background: #000
 }
 
-.owl-carousel .owl-video-play-icon {
+.theme1-carousel .theme1-video-play-icon {
     position: absolute;
     height: 80px;
     width: 80px;
@@ -166,7 +166,7 @@
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url(owl.video.play.png) no-repeat;
+    background: url(theme1.video.play.png) no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -174,18 +174,18 @@
     transition: transform .1s ease
 }
 
-.owl-carousel .owl-video-play-icon:hover {
+.theme1-carousel .theme1-video-play-icon:hover {
     -webkit-transform: scale(1.3, 1.3);
     -ms-transform: scale(1.3, 1.3);
     transform: scale(1.3, 1.3)
 }
 
-.owl-carousel .owl-video-playing .owl-video-play-icon,
-.owl-carousel .owl-video-playing .owl-video-tn {
+.theme1-carousel .theme1-video-playing .theme1-video-play-icon,
+.theme1-carousel .theme1-video-playing .theme1-video-tn {
     display: none
 }
 
-.owl-carousel .owl-video-tn {
+.theme1-carousel .theme1-video-tn {
     opacity: 0;
     height: 100%;
     background-position: center center;
@@ -194,7 +194,7 @@
     transition: opacity .4s ease
 }
 
-.owl-carousel .owl-video-frame {
+.theme1-carousel .theme1-video-frame {
     position: relative;
     z-index: 1;
     height: 100%;

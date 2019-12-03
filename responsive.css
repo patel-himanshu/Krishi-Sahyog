@@ -72,7 +72,7 @@
     .carosal-area .text>h3 {
         margin-top: 40px;
     }
-    .carosal-area .owl-dots {
+    .carosal-area .theme1-dots {
         margin-bottom: 30px;
         margin-top: 10px;
     }
@@ -136,7 +136,7 @@
     .main-logo {
         margin: 0;
     }
-    .owl-theme .owl-nav {
+    .theme1-theme .theme1-nav {
         display: none;
     }
     .carosal_bottom {
