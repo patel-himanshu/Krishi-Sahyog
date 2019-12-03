@@ -1,5 +1,5 @@
 .header .header-top {
-    background: #01d262 none repeat scroll 0 0;
+    background: rgb(1, 208, 98) none repeat scroll 0 0;
     height: 50px;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .carosal-area {
-    background-image: url("img/carosal-bg.jpg");
+    background-image: url("img/banner.jpg");
     background-size: cover;
 }
 
