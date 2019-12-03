@@ -1128,3 +1128,30 @@
 .footer_carosal_icon .theme1-nav{
     display: none;
 }
+
+.contactus {
+    background: #01d262 none repeat scroll 0 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 40px 40px 40px 40px;
+}
+
+.contactus h2{
+    font-family: "Roboto", sans-serif;
+}
+
+.contactus p{
+    line-height: 20px;
+}
+
+.contactus input[type="submit"] {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #01d262;
+    border-radius: 10px;
+    color: #01d262;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 15px 40px;
+}
