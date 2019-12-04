@@ -648,22 +648,23 @@ html
 }
 
 .donors .donors_input h5 input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #61ff82 none repeat scroll 0 0;
     border: 1px solid #fff;
     border-radius: 10px;
-    color: #fff;
+    color: #000;
     padding: 17px 20px;
     width: 47%;
 }
 
-.donors .donors_input h5 input[type="text"] {
+.donors .donors_input h5 input[type="number"] {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     margin-right: 2%;
 }
 
+ /*
 .donors .donors_input h5 input[type="email"] {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -671,6 +672,7 @@ html
     color: #fff;
     margin-left: 2%;
 }
+*/
 
 .donors .donors_input input[type="submit"] {
     background: #fff none repeat scroll 0 0;
