@@ -100,9 +100,9 @@
 .carosal-area .text>p {
     color: #fff;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 40px;
     margin-top: 28px;
 }
 
@@ -372,7 +372,7 @@
 }
 
 .events_section_area .events_single {
-    margin: 60px 20px 0;
+    margin: 20px 10px 0;
 }
 
 .events_section_area .events_single img {
@@ -408,19 +408,14 @@
 
 .events_section_area .events_single h3 {
     font-family: "Roboto", sans-serif;
+    color: #01c262;
     font-size: 20px;
     font-weight: 700;
-    margin-top: 70px;
+    margin-top: 20px;
     text-align: center;
 }
 
-.events_section_area .events_single:hover h3 {
-    color: #01d262;
-    text-decoration: underline;
-}
-
-.events_section_area .events_single h6 {
-    color: #6f6f6f;
+.events_section_area .events_single p {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
