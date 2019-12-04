@@ -45,7 +45,7 @@
          margin: 10,
          nav: true,
          items: 1,
-         autoplayTimeout: 6000,
+         autoplayTimeout: 2500,
          autoplay: true,
          navText: [
         "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>",
