@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 .header .header-top {
     background: rgb(1, 208, 98) none repeat scroll 0 0;
     height: 50px;
