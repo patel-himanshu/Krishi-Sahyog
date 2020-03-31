@@ -1,5 +1,5 @@
-# Web Programming Project
-### KRISHI SAHYOG
+# Web Programming Project (3<sup>rd</sup> Semester)
+### KRISHI SAHYOG 
 
 ###### Team Members:
 * Himanshu Patel (18100020)
